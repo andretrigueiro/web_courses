@@ -15,7 +15,7 @@
 
     <body>
 
-        <nav class="navbar navbar-expand-sm navbar-light">
+        <nav class="navbar navbar-expand-sm navbar-light navbar-top">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -48,46 +48,54 @@
             </div>
         </nav>
 
-        <ul class="nav nav-tabs">
 
-            <li class="nav-item">
-                <a href="#status" class="nav-link" data-toggle="tab" role="tab">
-                    STATUS
-                </a>
-            </li>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
 
-            <li class="nav-item">
-                <a href="#special" class="nav-link" data-toggle="tab">
-                    SPECIAL
-                </a>
-            </li>
+                    <ul class="nav nav-tabs">
 
-            <li class="nav-item">
-                <a href="#perks" class="nav-link" data-toggle="tab">
-                    PERKS
-                </a>
-            </li>
+                        <li class="nav-item">
+                            <a href="#status" class="nav-link" data-toggle="tab" role="tab">
+                                STATUS
+                            </a>
+                        </li>
 
-        </ul>
-    
-        <div class="tab-content">
+                        <li class="nav-item">
+                            <a href="#special" class="nav-link" data-toggle="tab">
+                                SPECIAL
+                            </a>
+                        </li>
 
-            <div class="tab-pane active" id="status" role="tabpanel">
-                <div class="center-image">
-                    <img src="img/pipboy3.png" />
+                        <li class="nav-item">
+                            <a href="#perks" class="nav-link" data-toggle="tab">
+                                PERKS
+                            </a>
+                        </li>
+
+                    </ul>
+                
+                    <div class="tab-content">
+
+                        <div class="tab-pane active" id="status" role="tabpanel">
+                            <div class="center-image">
+                                <img src="img/pipboy3.png" />
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="special" role="tabpanel">
+                            SPECIAL
+                        </div>
+
+                        <div class="tab-pane" id="perks" role="tabpanel">
+                            PERKS
+                        </div>     
+
+                    </div>
+
                 </div>
             </div>
-
-            <div class="tab-pane" id="special" role="tabpanel">
-                SPECIAL
-            </div>
-
-            <div class="tab-pane" id="perks" role="tabpanel">
-                PERKS
-            </div>     
-
         </div>
-                
         
         <footer>
             <navbar class="navbar navbar-light pip-footer">

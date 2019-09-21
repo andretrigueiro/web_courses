@@ -60,18 +60,18 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
     position: absolute;
     background: #f00;
     width: 100%;
-    height: 23px;
-    top: 17px;
+    height: 26px;
+    top: 14px;
     background: #272b23;
     border-left: 2px solid;
     border-right: 2px solid;
     border-top: 2px solid;
+    left: 0px;
 }
 
 .navbar-light .navbar-nav > li.nav-item > .nav-link,
 .navbar-light .navbar-nav > li.navbar-item.active > .nav-link {
     text-align: center;
-    width: 50%;
     margin: auto;
     font-size: 32px;
     line-height: 22px;
@@ -96,7 +96,7 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
     display: block;
     position: relative;
     max-height: 400px;
-    margin-top: 5%;
+    margin-top: 9%;
 
     filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1) contrast(2);
 }
@@ -108,6 +108,14 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
     margin: 10px;
 }
 
+.navbar.navbar-light .navbar-nav {
+    margin: 0px 20%;
+}
+
+.navbar.navbar-light .navbar-nav > li {
+    padding: 0px 5%;    
+}
+
 .nav.nav-tabs {
     margin: 20px;
     border-bottom: none;
@@ -115,4 +123,19 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
     border: 1px solid transparent;
+}
+
+.nav.nav-tabs > li > a {
+    font-size: 26px !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    padding: 5px 10px;
+}
+
+.nav.nav-tabs > li:nth-child(2) > a {
+    opacity: .5;
+}
+
+.nav.nav-tabs > li:nth-child(3) > a {
+    opacity: .3;
 }
